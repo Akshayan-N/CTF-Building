@@ -51,7 +51,7 @@ This will setup everything to need that's all.
 If you have good knowledge in docker then so know that we are publishing/binding the port 8000 of both our local machine and CTFd container. Now go visit this link [localhost:8000 ](http://localhost:8000 ) 
 
 When you visit this link for the first time after running the docker container you will be redirected to setup page 
-![[Pasted image 20240614150527.png]]
+![alt screenshot](imgs/screenshot1.png)
 
 You can fill up your event name in General , Admin username, email and password in  Administration. and click finish in Integrations. Don't worry about other you can change the config later during the building.
 
@@ -72,21 +72,21 @@ Guess what we build for foundation.
 ### Let's  create a Welcome flag 
 
 1. Click on the ***Admin Panel***
-2. Click on the  ***Challenges***
-	![[Pasted image 20240614151749.png]]
-3. Click on the ***Plus icon*** and enter your information for challenge
+3. Click on the  ***Challenges***
+	![alt screenshot](imgs/screenshot2.png)
+1. Click on the ***Plus icon*** and enter your information for challenge
 	 - Ohhh, we need a CTF flag right ??
 	 - Let's have format : flag{Unique_Content}
 	 - example flag : flag{W3CloME_F14G}
 	 
 	 > To generate a flag for your CTF use this website [Sukka Lab](https://lab.skk.moe/ctf-flag-generator)
-	 ![[Pasted image 20240614175612.png]]
+		 ![alt screenshot](imgs/screenshot4.png)
 	
 4. Click ***Create*** and fill in flag we just created and click ***Finish*** 
-	![[Pasted image 20240614175837.png]]
+	![alt screenshot](imgs/screenshot5.png)
 
 We just created our first  CTF challenge 
 
-![[Pasted image 20240614180220.png]]
+![alt screenshot](imgs/screenshot6.png)
 
 So I hope  you got the fundamentals of CTF building, feel free to play around the CTFd framework and familiarize yourself with
